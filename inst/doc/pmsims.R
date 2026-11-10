@@ -8,8 +8,7 @@ knitr::opts_chunk$set(
 )
 
 ## -----------------------------------------------------------------------------
-# install.packages("remotes")
-# remotes::install_github("pmsims-package/pmsims")
+# install.packages("pmsims")
 library(pmsims)
 
 ## -----------------------------------------------------------------------------
@@ -35,8 +34,8 @@ library(pmsims)
 # `binary_example` is the result of the call above, shipped with the package.
 print(binary_example)
 
-## ----fig.alt="Plot showing learning curve for binary outcome"-----------------
-plot(binary_example)
+## -----------------------------------------------------------------------------
+# plot(binary_example)
 
 ## -----------------------------------------------------------------------------
 # continuous_example <- simulate_continuous(

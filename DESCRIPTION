@@ -1,6 +1,6 @@
 Package: pmsims
 Title: Simulation-Based Sample Size Tools for Prediction Models
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: 
     c(
       person(given = "Ewan",
@@ -45,23 +45,23 @@ Description: Provides a flexible, simulation-based toolkit for exploring how
     <doi:10.1186/s12874-026-02935-9> and Shamsutdinova et al. (2026)
     <doi:10.48550/arXiv.2602.23507>.
 License: GPL (>= 3)
-URL: https://pmsims-package.github.io/pmsims/,
-        https://github.com/pmsims-package/pmsims
+URL: https://docs.pmsims.com/, https://github.com/pmsims-package/pmsims
 BugReports: https://github.com/pmsims-package/pmsims/issues
 Depends: R (>= 4.1.0)
-Imports: cli, ggplot2, lifecycle, mlpwr, pROC, stats, survival,
-        timeROC, utils
-Suggests: covr, DescTools, doParallel, foreach, glmnet, knitr, mlbench,
-        mlr, randomForestSRC, ranger, rmarkdown, synthpop, testthat (>=
-        3.0.0), tuneRanger, xgboost
+Imports: cli, ggplot2, lifecycle, mlpwr, parallel, pROC, stats,
+        survival (>= 3.5-0), utils
+Suggests: covr, DescTools, glmnet (>= 5.0), knitr, mlbench, mlr,
+        randomForestSRC, ranger, rmarkdown, synthpop, testthat (>=
+        3.0.0), timeROC, tuneRanger, xgboost
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: xz
 VignetteBuilder: knitr
 Config/testthat/edition: 3
+Config/Needs/website: glmmTMB
 Config/roxygen2/version: 8.0.0
 NeedsCompilation: no
-Packaged: 2026-09-08 19:30:59 UTC; k1644956
+Packaged: 2026-11-10 21:24:10 UTC; k1644956
 Author: Ewan Carr [aut, cre] (ORCID: <https://orcid.org/0000-0002-1146-4922>),
   Gordon Forbes [aut] (ORCID: <https://orcid.org/0000-0001-8662-3636>),
   Ridwan Olaniran [aut] (ORCID: <https://orcid.org/0000-0001-7342-8639>),
@@ -72,4 +72,4 @@ Author: Ewan Carr [aut, cre] (ORCID: <https://orcid.org/0000-0002-1146-4922>),
   Felix Zimmer [aut] (ORCID: <https://orcid.org/0000-0002-8127-0007>)
 Maintainer: Ewan Carr <ewan.carr@kcl.ac.uk>
 Repository: CRAN
-Date/Publication: 2026-09-17 09:30:02 UTC
+Date/Publication: 2026-11-10 21:50:02 UTC
